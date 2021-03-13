@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+body{
+/*  height: 100vh;
+*/}
+.app_header{
+  position: sticky;
+  top:0;
+  z-index: 1;
+  object-fit: contain;
+  background-color: white;
+  padding:20px; 
+  border-bottom:1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+}
+.app{
+  background:#fafafa;
+/*  margin-bottom: 10em;
+*//*  height: 100vh;*/
+}
+.app_signup{
+  display: flex;margin: 0 auto;
+  flex-direction: column;
+}
+.app_headerImage{
+  object-fit: contain;
+}
+.app_post{
+  padding:20px;
+  height: 500px;
+display: grid;
+place-items:center;
+/*margin-bottom: 20em;
+*/}
